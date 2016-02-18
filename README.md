@@ -1,5 +1,3 @@
-# vacation-suggester
-A webpage that asks questions of the user and then uses the answers to return the perfect suggestion for a getaway.
 # _Vacation Suggester_
 
 #### _Second code review for Intro to Programming at Epicodus, 02.17.2016_
