@@ -1,3 +1,12 @@
+#questionnaire{
+  display: none;
+}
+
+#destinations{
+  display: none;
+}
+
+
 .destinationimage{
   height: auto;
   width: 50%;
