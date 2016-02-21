@@ -1,6 +1,6 @@
 # _Vacation Suggester_
 
-#### _Second code review for Intro to Programming at Epicodus, 02.17.2016_
+#### _Second code review for Intro to Programming at Epicodus, 02.20.2016_
 
 #### By _**Amanda Daly**_
 
@@ -10,12 +10,12 @@ _This is a website built using HTML, CSS, Bootstrap, and JavaScript that will as
 
 ## Setup/Installation Requirements
 
-* _You can visit the live site at techdaly.github.io/vacation-suggester or clone this repository into a folder on your computer._
+* _You can visit the live site at techdaly.github.io/vacation-suggester or clone this repository into a folder on your computer to open locally._
 
 
 ## Known Bugs
 
-_There are not yet any known bugs. If you encounter any, please let me know at techdaly@gmail.com._
+_There are not any known bugs. If you encounter any, please let me know at techdaly@gmail.com._
 
 ## Support and contact details
 
@@ -25,9 +25,6 @@ _If you run into any issues or have questions, ideas, or concerns please contact
 
 _HTML, JavaScript, CSS, Bootstrap_
 
-## Bonus Items
-
-_No bonus items, yet._
 
 ### License
 
