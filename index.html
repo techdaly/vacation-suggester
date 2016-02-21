@@ -7,61 +7,63 @@
     <title>Vacation Suggester</title>
   </head>
   <body>
-    <h1>Travel the Universe!</h1>
-    <p id="teaser">Space travel is the way of the future, and it has never been easier! The Galactic Travel Union can help find the perfect destination for you. Just answer a few short questions and you'll be on your way to the greatest vacation of your life!</p>
-    <div id="readybutton">
-      I'm Ready!
+    <div id="introduction" class="container">
+      <h1>Travel the Universe!</h1>
+      <p id="teaser">Space travel is the way of the future, and it has never been easier! The Galactic Travel Union can help find the perfect destination for you. Just answer a few short questions and you'll be on your way to the greatest vacation of your life!</p>
+      <div id="readybutton">
+        <button type="submit" class="btn">I'm ready!</button>
+      </div>
     </div>
 
-    <div id="questionnaire">
+    <form id="questionnaire">
       <p>How old is the youngest person traveling with you?</p>
       <ul>
-        <input type="radio" name="old" value="under21" id="oldunder21"><label>Under 21</label><br>
-        <input type="radio" name="old" value="over21" id="oldover21"><label>Over 21</label><br>
+        <input class="age" type="radio" name="old" value="under21" id="oldunder21"><label>Under 21</label><br>
+        <input class="age" type="radio" name="old" value="over21" id="oldover21"><label>Over 21</label><br>
       </ul>
 
       <p>What is the nature of your travel?</p>
       <ul>
-        <input type="radio" name="nature" value="romantic" id="natureromantic"><label>Romantic</label><br>
-        <input type="radio" name="nature" value="adventurous" id="natureadventurous"><label>Adventurous</label><br>
-        <input type="radio" name="nature" value="educational" id="natureeducational"><label>Educational</label><br>
-        <input type="radio" name="nature" value="relaxing" id="naturerelaxing"><label>Relaxing</label><br>
-        <input type="radio" name="nature" value="culinary" id="natureculinary"><label>Culinary</label><br>
+        <input class="nature" type="radio" name="nature" value="2" id="natureromantic"><label>Romantic</label><br>
+        <input class="nature" type="radio" name="nature" value="5" id="natureadventurous"><label>Adventurous</label><br>
+        <input class="nature" type="radio" name="nature" value="3" id="natureeducational"><label>Educational</label><br>
+        <input class="nature" type="radio" name="nature" value="1" id="naturerelaxing"><label>Relaxing</label><br>
+        <input class="nature" type="radio" name="nature" value="4" id="natureculinary"><label>Culinary</label><br>
       </ul>
 
       <p>How far do you want to travel?</p>
       <ul>
-        <input type="radio" name="far" value="thisplanet" id="farthisplanet"><label>Within this planet.</label><br>
-        <input type="radio" name="far" value="fewplanets" id="farfewplanets"><label>Within a few planets.</label><br>
-        <input type="radio" name="far" value="solarsystem" id="farsolarsystem"><label>Within this solar system.</label><br>
-        <input type="radio" name="far" value="galaxy" id="fargalaxy"><label>Within this galaxy.</label><br>
-        <input type="radio" name="far" value="farfar" id="farfarfar"><label>As far away as I can possibly get!</label><br>
+        <input class="far" type="radio" name="far" value="1" id="farthisplanet"><label>Within this planet.</label><br>
+        <input class="far" type="radio" name="far" value="2" id="farfewplanets"><label>Within a few planets.</label><br>
+        <input class="far" type="radio" name="far" value="3" id="farsolarsystem"><label>Within this solar system.</label><br>
+        <input class="far" type="radio" name="far" value="4" id="fargalaxy"><label>Within this galaxy.</label><br>
+        <input class="far" type="radio" name="far" value="5" id="farfarfar"><label>As far away as I can possibly get!</label><br>
       </ul>
 
       <p>What is your budget?</p>
       <ul>
-        <input type="radio" name="budget" value="0" id="budget0"><label>Nothing.</label><br>
-        <input type="radio" name="budget" value="500" id="budget500"><label>Under $500</label><br>
-        <input type="radio" name="budget" value="1000" id="budget1000"><label>Under $1000</label><br>
-        <input type="radio" name="budget" value="10000" id="budget10000"><label>Under $10,000</label><br>
-        <input type="radio" name="budget" value="nolimits" id="budgetnolimits"><label>My budget has no limits!</label><br>
+        <input class="budget" type="radio" name="budget" value="1" id="budget0"><label>Nothing.</label><br>
+        <input class="budget" type="radio" name="budget" value="2" id="budget500"><label>Under $500</label><br>
+        <input class="budget" type="radio" name="budget" value="3" id="budget1000"><label>Under $1000</label><br>
+        <input class="budget" type="radio" name="budget" value="4" id="budget10000"><label>Under $10,000</label><br>
+        <input class="budget" type="radio" name="budget" value="5" id="budgetnolimits"><label>My budget has no limits!</label><br>
       </ul>
 
       <p>Which of these do you fear most?</p>
       <ul>
-        <input type="radio" name="fear" value="budget" id="fearbudget"><label>Going over budget</label><br>
-        <input type="radio" name="fear" value="monsters" id="fearmonsters"><label>Monsters</label><br>
-        <input type="radio" name="fear" value="nausea" id="fearnausea"><label>Nausea</label><br>
-        <input type="radio" name="fear" value="dark" id="feardark"><label>The Dark</label><br>
-        <input type="radio" name="fear" value="souvenir" id="fearsouvenir"><label>Forgetting to find a souvenir for a social acquaintance</label><br>
+        <input class="fear" type="radio" name="fear" value="1" id="fearbudget"><label>Going over budget</label><br>
+        <input class="fear" type="radio" name="fear" value="2" id="fearmonsters"><label>Monsters</label><br>
+        <input class="fear" type="radio" name="fear" value="3" id="fearnausea"><label>Nausea</label><br>
+        <input class="fear" type="radio" name="fear" value="4" id="feardark"><label>The Dark</label><br>
+        <input class="fear" type="radio" name="fear" value="5" id="fearsouvenir"><label>Forgetting to find a souvenir for a social acquaintance</label><br>
       </ul>
 
       <div id="resultsbutton">
-        Calculate my destination!
+        <button type="submit" class="btn">Calculate my destination!</button>
       </div>
-    </div>
+    </form>
 
-    <div class="container" id="destinations">
+    <div class="container">
       <div class="row">
         <div id="destinationEarth">
           <img class="destinationimage" src="img/Earth.png" alt="Travel Poster of Earth">
@@ -111,6 +113,7 @@
       </div>
     </div>
 
-
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
