@@ -2,7 +2,22 @@
   display: none;
 }
 
-#destinations{
+#destinationEarth{
+  display: none;
+}
+#destinationVenus{
+  display: none;
+}
+#destinationEuropa{
+  display: none;
+}
+#destinationKepler186f{
+  display: none;
+}
+#destinationKepler16b{
+  display: none;
+}
+#destinationPSO{
   display: none;
 }
 
